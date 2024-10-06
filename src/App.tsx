@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { Test } from './components'
+import { Dashboard } from './dashboard/Dashboard';
 
 // Hook , es un trozo de lógica que representa el ciclo de vida de un componente. Es reutilizable
 
@@ -57,6 +58,8 @@ function App() {
            {count} 
        </>
        </Test>
+
+       <Dashboard/>
       
    </> 
   )
